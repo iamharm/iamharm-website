@@ -333,7 +333,7 @@ body .portfolio_home__header ul li:hover {
   border-bottom: 2px solid #07101d;
 }
 body .portfolio_home__header .nav {
-  position: absolute;
+  position: absleftolute;
   left: 0;
   right: 0;
   margin: auto;
