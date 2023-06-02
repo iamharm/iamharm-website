@@ -49,17 +49,17 @@ svg,img { max-width: 100%; height: auto; }
 /*-----------------------------------------------------------------
   1. >>> Headr Style
 ----------------------------------------------------------------*/
-.ds-header{ padding-top:3.75rem; text-align: center; position: relative;  }
+.ds-header{ padding-top:1.75rem; text-align: center; position: relative;  }
 .ds-logo a{font-family: 'DM Serif Display', serif; text-transform: uppercase; letter-spacing: 5px; font-size: 1.375rem}
 .ds-logo a:hover{color: #000}
 .ds-logo span{display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; margin-top: 0.9375rem}
 .ds-about-link-button{ position: absolute; right:3%; border: 1px solid #000; display: inline-block; padding: 0.7rem 0.4rem;line-height: 3px;top:61%;}
 .ds-about-link-button:hover{color: #000}
 .ds-about-link-button span{ display: block; color: #505050; font-size: 0.625rem; text-transform: uppercase; position: absolute; bottom:-13px;left: -12px;width: 55px; opacity: 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
-.ds-closebutton{ position: absolute; bottom:-5rem; left: 0; right: 0; margin: 0 auto; display: inline-block; width:3.125rem; height: 3.125rem;font-size: 1.125rem; line-height: 3.125rem; color: #687278; border: 1px solid #687278; border-radius: 100%}
+.ds-closebutton{ position: absolute; bottom:-3.5rem; left: 0; right: 0; margin: 0 auto; display: inline-block; width:3.125rem; height: 3.125rem;font-size: 1.125rem; line-height: 3.125rem; color: #687278; border: 1px solid #687278; border-radius: 100%}
 
 .ds-about-link-button:hover span{ opacity:1  }
-.ds-slider-section,.ds-main-section{ padding: 7.5rem 0 }
+.ds-slider-section,.ds-main-section{ padding: 4rem 0 }
 .ds-slider{ margin:0 }
 .ds-slider-loop{ padding-right:30px }
 .ds-slider-loop span{ text-transform: uppercase; font-size: 0.625rem; letter-spacing: 0.1875rem; display: inline-block; vertical-align: middle; margin-top: 1.125rem }
@@ -228,9 +228,9 @@ svg,img { max-width: 100%; height: auto; }
 
 .slider_note {
   width: 100%;
+  padding-top: 20px;
   position: absolute;
   color: black;
   left: 0;
-  top: 740px;
   z-index: 2;
   text-align: center;
