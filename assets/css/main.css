@@ -225,3 +225,12 @@ svg,img { max-width: 100%; height: auto; }
     transition: .4s ease;
   }
 }
+
+.slider_note {
+  width: 100%;
+  position: absolute;
+  color: black;
+  left: 0;
+  top: 740px;
+  z-index: 2;
+  text-align: center;

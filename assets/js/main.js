@@ -3,8 +3,8 @@ $('.ds-slider').slick({
 	infinite: true,
 	speed: 600,
 	arrows: false,
-	slidesToShow: 4,
-	slidesToScroll: 4,
+	slidesToShow: 3,
+	slidesToScroll: 3,
 	responsive: [
 	  {
 		breakpoint: 1024,
